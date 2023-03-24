@@ -1,3 +1,3 @@
-docker stop $(docker ps -aq)
-docker rm $(docker ps -aq)
-docker rmi $(docker images -aq)
+sudo docker stop $(sudo docker ps -aq)
+sudo docker rm $(sudo docker ps -aq)
+sudo docker rmi $(sudo docker images -aq)
