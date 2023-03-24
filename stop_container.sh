@@ -1,3 +1,3 @@
-docker stop $(docker ps -aq)
-docker rm $(docker ps -aq)
-docker rmi mupadhyay087/hello-world-app
+sudo docker stop $(sudo docker ps -aq)
+sudo docker rm $(sudo docker ps -aq)
+sudo docker rmi mupadhyay087/hello-world-app
